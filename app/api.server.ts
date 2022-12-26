@@ -11,7 +11,7 @@ export const fetchItems = async (query: {
     thumb: `https://picsum.photos/200?${id}`,
   }));
 
-  await new Promise((r) => setTimeout(r, 2000));
+  await new Promise((r) => setTimeout(r, 500));
 
   return Promise.resolve({
     data: items,
