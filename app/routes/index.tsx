@@ -78,12 +78,7 @@ export default function Index() {
       }}
       loading={fetcher.state === "loading"}
     >
-      <div
-        style={{
-          fontFamily: "system-ui, sans-serif",
-          lineHeight: "1.4",
-        }}
-      >
+      <div>
         {/* Items Grid */}
         <div className="items-container">
           {items.map((item) => (
